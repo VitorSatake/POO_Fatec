@@ -15,7 +15,7 @@ public class Manipula_Contribuinte {
 	}
 }
 
-// Refatorado para entrada de dados do usuário
+// Refatorado para entrada de dados do usuário chamando os metodos set/get
 
 package Contribuinte;
 
@@ -43,7 +43,12 @@ public class Manipula_Contribuinte {
 		a.setCNPJ(cnp);
 		a.setCartao(car);
 		
-		a.mostra_contribuinte();
+		//a.mostra_contribuinte();
+			
+			System.out.println("Nome = " + a.getNome());
+			System.out.println("CPF = " + a.getCPF());
+			System.out.println("CNPJ = " + a.getCNPJ());
+			System.out.println("Cartao = " + a.getCartao());
 
 }
 }
