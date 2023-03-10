@@ -2,7 +2,7 @@ package src;
 
 public class Automovel { 
 
-	// definiçao dos atributos 	 
+// definiçao dos atributos 	 
 
 	String marca; 
 	String tipo; 
