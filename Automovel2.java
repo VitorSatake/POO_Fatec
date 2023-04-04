@@ -1,6 +1,7 @@
 // refatorando classe Automovel com entrada de dados do usuario
 
 
+
 package pooVitor;
 
 public class Automovel { 
