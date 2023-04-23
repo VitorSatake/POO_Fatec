@@ -73,14 +73,4 @@ public class Disciplina {
     public Disciplina(Aritmetica calculo) {
     }
 
-   
-
-    //public void Situacao()
-    //{
-        
-        
-        
-        //return 
-    //}
-
 }
