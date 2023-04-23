@@ -4,12 +4,21 @@ import java.lang.Math;
 public class Geometrica implements ICalcMedia{
 
     @Override
-    public double CalcularMedia(double p1, double p2) {
-        return (p1 + p2) / 2;
+    public double CalculaMedia(double p1, double p2) {
+        double media;
+        media = Math.sqrt(p1*p2);
+        return media;
     }
 
     @Override
-    public String Situacao() {
-        return sqrt(p1+p1);
+    public String Situacao(double media) {
+        if(media > 5){
+            return "Aprovado";
+        }
+        else{
+            return "Reprovado";
     }
+    }
+
+   
 }
