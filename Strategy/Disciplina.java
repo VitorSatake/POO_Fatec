@@ -10,6 +10,18 @@ public class Disciplina {
     private String Nome;
     private String Situacao;
 
+
+    
+
+    public ICalcMedia getCalcMedia() {
+        return CalcMedia;
+    }
+
+    public void setCalcMedia(ICalcMedia calcMedia) {
+        CalcMedia = calcMedia;
+    }
+   
+
     public double getMedia() {
         return Media;
     }
@@ -50,11 +62,25 @@ public class Disciplina {
         this.Situacao = Situacao;
     }
 
-    public void CalcularMedia(){}
-    public void Situacao()
-    {
+    public void CalcularMedia(){
+
+        this.CalcMedia.CalculaMedia(this.p1, this.p2);
         this.CalcMedia.Situacao(this.Media);
-        //return 
+
     }
+
+    
+    public Disciplina(Aritmetica calculo) {
+    }
+
+   
+
+    //public void Situacao()
+    //{
+        
+        
+        
+        //return 
+    //}
 
 }
