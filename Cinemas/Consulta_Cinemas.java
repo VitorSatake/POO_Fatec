@@ -25,6 +25,12 @@ public class Consulta_Cinemas {
 		praiaMar.setCap("200");
 		System.out.println("Cine \t" + praiaMar.getNome() + " fica na "
 		+ praiaMar.getLocalizacao()+ " e sua capacidade e de " + praiaMar.getCap() + " pessoas.");
+		
+		// Cine Roxy não tem aceso ao atributo nome_do_cinema, pois essa classe herda os atributos da classe cinemas_de_santos, e o atributo nome_do_cinema
+		// pertence a classe cinemas_antigos
+		roxy.setNome("Roxy");
+		System.out.println("Cine \t" + roxy.getNome() + " fica na "
+		+ roxy.getLocalizacao());
 	}
 
 }
